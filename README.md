@@ -18,12 +18,12 @@ Create NAT Network in Virtual Box
 
 Steps
 1. Install mint 18
-2. install Dynagen and VM guest additions
+2. install VM guest additions
+3. install updates and all programs needed for this
 ```shell
 sudo apt update  
 sudo apt install dynagen dynamips bridge-utils uml-utilities nano tftpd
 ```
-3. install updates
 4. Find out interface of network adapter
 `ifconfig`
 5. Then edit your interface file `sudo nano /etc/network/interfaces`
